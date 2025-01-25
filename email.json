@@ -1,0 +1,4 @@
+import json
+
+with open("email.json", "w") as f:
+    json.dump({"email": "24ds2000024@ds.study.iitm.ac.in"}, f, indent=4)
